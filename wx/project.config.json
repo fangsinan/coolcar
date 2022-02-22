@@ -49,5 +49,10 @@
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "appid": "wxc4fd0170b9bb8c47",
+  "scripts": {
+    "beforeCompile": "npm run tsc",
+    "beforePreview": "npm run tsc",
+    "beforeUpload": "npm run tsc"
+  },
   "condition": {}
 }
